@@ -1,0 +1,28 @@
+{
+  "name": "react-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --inline --colors --content-base ./build",
+    "build": "webpack --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tangdexin/react-study.git"
+  },
+  "author": "tangdexin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tangdexin/react-study/issues"
+  },
+  "homepage": "https://github.com/tangdexin/react-study#readme",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "webpack": "^3.5.5"
+  }
+}

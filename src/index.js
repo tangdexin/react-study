@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDom from 'react-dom';
+import ReactDOM from 'react-dom';
 
 class App extends React.Component{
     render(){
@@ -7,11 +7,10 @@ class App extends React.Component{
             <div>
                 hello world!
             </div>
-        )
+        );
     }
 }
 
 ReactDOM.render(
-    <App/>,
-    document.getElementById('app')
+    <App/>,document.getElementById('app')
 );
